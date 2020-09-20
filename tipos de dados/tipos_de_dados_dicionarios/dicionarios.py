@@ -65,5 +65,18 @@ print('Deletendo um elemento pela chave:')
 print(dicionario)
 
 # Deletendo uma chave com pop.
+dicionario.pop(2)
+print('Eliminando uma chave com pop():')
+print(dicionario)
+
+# Deletendo um item arbitrario.
+dicionario.popitem()
+print('Deletendo um valor arbitrario:')
+print(dicionario)
+
+# Deletendo um dicionario inteiro.
+dicionario.clear()
+print('Deletendo todo o dicionario:')
+
 
 
