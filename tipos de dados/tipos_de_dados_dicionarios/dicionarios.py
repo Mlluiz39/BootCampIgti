@@ -64,5 +64,6 @@ del dicionario[3]
 print('Deletendo um elemento pela chave:')
 print(dicionario)
 
+# Deletendo uma chave com pop.
 
 
