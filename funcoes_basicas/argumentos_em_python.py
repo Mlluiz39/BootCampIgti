@@ -5,6 +5,10 @@
 # Exemplo de função
 
 def concatena_nome_mensagem(nome, mensagem): # a função possue dois parametros
+    """
+
+    @type nome: parametro da função
+    """
     print('Ola,', nome + '!'  + mensagem)
     # chamando a função corretamente
 
