@@ -56,7 +56,7 @@ print(meu_array.index(2))
 print(meu_array.count(2))
 
 # Criando uma classe carro
-class Carro:
+class Carros:
     def __init__(self, numero_portas, preco):
         self.numero_portas = numero_portas
         self.preco = preco
@@ -67,7 +67,7 @@ class Carro:
         self.numero_portas = novo_numero_portas
 
 
-carro_3 = Carro(4, 50000)
+carro_3 = Carros(4, 50000)
 print(' Numero de portas antes:', carro_3.get_numero_portas())  # metódo get - não modifica o estado do objeto
 carro_3.set_numero_portas(2)  # metódo set modifica o estado do objetos
 print(' Novo numero de portas:', carro_3.get_numero_portas())
